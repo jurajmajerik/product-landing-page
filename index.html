@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://gitcdn.link/repo/freeCodeCamp/testable-projects-fcc/master/build/bundle.js" charset="utf-8"></script>
+    <title>Product Landing Page</title>
+  </head>
+  <body>
+    <header id="header">
+      <nav id="nav-bar">
+        <div id="nav-wrap">
+          <div class="container">
+            <ul id="nav">
+              <div id="logo">
+                <img id="header-img" src="https://i.imgur.com/0E8QPYC.png" alt="">
+              </div>
+              <li><a class="nav-link" href="#outer-wrap">Home</a></li>
+              <li><a class="nav-link" href="#product">Product</a></li>
+              <li><a class="nav-link" href="#pricing">Pricing</a></li>
+          </div>
+          </ul>
+        </div>
+      </nav>
+      </div>
+    </header>
+    <div id="home">
+      <div class="container container-style" id="outer-wrap">
+        <h1 id="product">Check Out Our Awesome Product</h1>
+        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/2YBtspm8j8M" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <h2>Give Us Your Email</h2>
+        <form id="form" action="https://www.freecodecamp.com/email-submit" method="post">
+          <div class="item">
+            <input id="email" type="email" name="email" placeholder="Enter your email">
+          </div>
+          <div class="item">
+            <input id="submit" type="submit" name="submit" class="btn btn-dark">
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="container container-style">
+      <h2 id="pricing">Competitive Pricing</h2>
+      <div id="price-container">
+        <div id="price-box-1">
+          <div class="container container-style">
+            <h2>$79/month</h2>
+            <ul>
+              <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+              <li>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+              <li>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</li>
+            </ul>
+          </div>
+        </div>
+        <div id="price-box-2">
+          <div class="container container-style">
+            <h2>$99/month</h2>
+            <ul>
+              <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+              <li>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+              <li>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="foot" class="container container-style">
+      <div class="row">
+        <div class="col-12 text-center">
+          <span style="font-size:12px;">© Juraj Majerik 2018</span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
